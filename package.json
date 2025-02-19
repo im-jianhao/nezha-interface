@@ -1,0 +1,49 @@
+{
+  "name": "nezha-interface",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clent:dev": "scripty",
+    "clent:server": "scripty",
+    "clent:prod": "scripty"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tanstack/react-query": "^5.66.7",
+    "connectkit": "^1.8.2",
+    "css-loader": "^7.1.2",
+    "lucide-react": "^0.475.0",
+    "postcss": "^8.5.2",
+    "postcss-loader": "^8.1.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.1.5",
+    "viem": "^2.23.2",
+    "wagmi": "^2.14.11"
+  },
+  "devDependencies": {
+    "@soda/friendly-errors-webpack-plugin": "^1.8.1",
+    "@swc/core": "^1.10.17",
+    "@tailwindcss/postcss": "^4.0.6",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "clean-webpack-plugin": "^4.0.0",
+    "dotenv-webpack": "^8.1.0",
+    "html-webpack-plugin": "^5.6.3",
+    "mini-css-extract-plugin": "^2.9.2",
+    "node-notifier": "^10.0.1",
+    "scripty": "^2.1.1",
+    "swc-loader": "^0.2.6",
+    "tailwindcss": "^4.0.6",
+    "themed-progress-plugin": "^1.0.1",
+    "webpack": "^5.98.0",
+    "webpack-bundle-analyzer": "^4.10.2",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0",
+    "webpack-merge": "^6.0.1",
+    "yargs-parser": "^21.1.1"
+  }
+}
