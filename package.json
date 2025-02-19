@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://imjianhao.xyz",
   "scripts": {
     "clent:dev": "scripty",
     "clent:server": "scripty",
