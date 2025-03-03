@@ -1,0 +1,206 @@
+{
+  "numFailedTestSuites": 1,
+  "numFailedTests": 2,
+  "numPassedTestSuites": 0,
+  "numPassedTests": 6,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 0,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 1,
+  "numTotalTests": 8,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1740994091319,
+  "success": false,
+  "testResults": [
+    {
+      "leaks": false,
+      "numFailingTests": 2,
+      "numPassingTests": 6,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1740994092074,
+        "runtime": 629,
+        "slow": false,
+        "start": 1740994091445
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/Users/apple/Desktop/YD/nezha-interface/tests/unit/index.spec.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "formatWalletAddress"
+          ],
+          "duration": 300,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "formatWalletAddress should return empty string when address is empty",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 3,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should return empty string when address is empty"
+        },
+        {
+          "ancestorTitles": [
+            "formatWalletAddress"
+          ],
+          "duration": 0,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "formatWalletAddress should return original address when too short",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 3,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should return original address when too short"
+        },
+        {
+          "ancestorTitles": [
+            "formatWalletAddress"
+          ],
+          "duration": 0,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "formatWalletAddress should format address correctly with default parameters",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 2,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should format address correctly with default parameters"
+        },
+        {
+          "ancestorTitles": [
+            "formatWalletAddress"
+          ],
+          "duration": 0,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "formatWalletAddress should preserve 0x prefix when present",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should preserve 0x prefix when present"
+        },
+        {
+          "ancestorTitles": [
+            "formatWalletAddress"
+          ],
+          "duration": 1,
+          "failureDetails": [
+            {
+              "matcherResult": {
+                "actual": "0x12345...67890",
+                "expected": "0x12345...45678",
+                "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"0x12345...\u001b[7m45\u001b[27m678\"\u001b[39m\nReceived: \u001b[31m\"0x12345...678\u001b[7m90\u001b[27m\"\u001b[39m",
+                "name": "toBe",
+                "pass": false
+              }
+            }
+          ],
+          "failureMessages": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"0x12345...\u001b[7m45\u001b[27m678\"\u001b[39m\nReceived: \u001b[31m\"0x12345...678\u001b[7m90\u001b[27m\"\u001b[39m\n    at Object.<anonymous> (/Users/apple/Desktop/YD/nezha-interface/tests/unit/index.spec.ts:38:8)\n    at Promise.then.completed (/Users/apple/Desktop/YD/nezha-interface/node_modules/.pnpm/jest-circus@29.7.0/node_modules/jest-circus/build/utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/apple/Desktop/YD/nezha-interface/node_modules/.pnpm/jest-circus@29.7.0/node_modules/jest-circus/build/utils.js:231:10)\n    at _callCircusTest (/Users/apple/Desktop/YD/nezha-interface/node_modules/.pnpm/jest-circus@29.7.0/node_modules/jest-circus/build/run.js:316:40)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at _runTest (/Users/apple/Desktop/YD/nezha-interface/node_modules/.pnpm/jest-circus@29.7.0/node_modules/jest-circus/build/run.js:252:3)\n    at _runTestsForDescribeBlock (/Users/apple/Desktop/YD/nezha-interface/node_modules/.pnpm/jest-circus@29.7.0/node_modules/jest-circus/build/run.js:148:7)\n    at _runTestsForDescribeBlock (/Users/apple/Desktop/YD/nezha-interface/node_modules/.pnpm/jest-circus@29.7.0/node_modules/jest-circus/build/run.js:121:9)\n    at run (/Users/apple/Desktop/YD/nezha-interface/node_modules/.pnpm/jest-circus@29.7.0/node_modules/jest-circus/build/run.js:71:3)\n    at runAndTransformResultsToJestFormat (/Users/apple/Desktop/YD/nezha-interface/node_modules/.pnpm/jest-circus@29.7.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)\n    at jestAdapter (/Users/apple/Desktop/YD/nezha-interface/node_modules/.pnpm/jest-circus@29.7.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)\n    at runTestInternal (/Users/apple/Desktop/YD/nezha-interface/node_modules/.pnpm/jest-runner@29.7.0/node_modules/jest-runner/build/runTest.js:367:16)\n    at runTest (/Users/apple/Desktop/YD/nezha-interface/node_modules/.pnpm/jest-runner@29.7.0/node_modules/jest-runner/build/runTest.js:444:34)"
+          ],
+          "fullName": "formatWalletAddress should format address with custom start and end lengths",
+          "invocations": 2,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "failed",
+          "title": "should format address with custom start and end lengths"
+        },
+        {
+          "ancestorTitles": [
+            "formatWalletAddress"
+          ],
+          "duration": 1,
+          "failureDetails": [
+            {
+              "matcherResult": {
+                "actual": "0x1234...5678",
+                "expected": "0x12345678",
+                "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"0x12345678\"\u001b[39m\nReceived: \u001b[31m\"0x1234\u001b[7m...\u001b[27m5678\"\u001b[39m",
+                "name": "toBe",
+                "pass": false
+              }
+            }
+          ],
+          "failureMessages": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"0x12345678\"\u001b[39m\nReceived: \u001b[31m\"0x1234\u001b[7m...\u001b[27m5678\"\u001b[39m\n    at Object.<anonymous> (/Users/apple/Desktop/YD/nezha-interface/tests/unit/index.spec.ts:45:25)\n    at Promise.then.completed (/Users/apple/Desktop/YD/nezha-interface/node_modules/.pnpm/jest-circus@29.7.0/node_modules/jest-circus/build/utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/apple/Desktop/YD/nezha-interface/node_modules/.pnpm/jest-circus@29.7.0/node_modules/jest-circus/build/utils.js:231:10)\n    at _callCircusTest (/Users/apple/Desktop/YD/nezha-interface/node_modules/.pnpm/jest-circus@29.7.0/node_modules/jest-circus/build/run.js:316:40)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at _runTest (/Users/apple/Desktop/YD/nezha-interface/node_modules/.pnpm/jest-circus@29.7.0/node_modules/jest-circus/build/run.js:252:3)\n    at _runTestsForDescribeBlock (/Users/apple/Desktop/YD/nezha-interface/node_modules/.pnpm/jest-circus@29.7.0/node_modules/jest-circus/build/run.js:148:7)\n    at _runTestsForDescribeBlock (/Users/apple/Desktop/YD/nezha-interface/node_modules/.pnpm/jest-circus@29.7.0/node_modules/jest-circus/build/run.js:121:9)\n    at run (/Users/apple/Desktop/YD/nezha-interface/node_modules/.pnpm/jest-circus@29.7.0/node_modules/jest-circus/build/run.js:71:3)\n    at runAndTransformResultsToJestFormat (/Users/apple/Desktop/YD/nezha-interface/node_modules/.pnpm/jest-circus@29.7.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)\n    at jestAdapter (/Users/apple/Desktop/YD/nezha-interface/node_modules/.pnpm/jest-circus@29.7.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)\n    at runTestInternal (/Users/apple/Desktop/YD/nezha-interface/node_modules/.pnpm/jest-runner@29.7.0/node_modules/jest-runner/build/runTest.js:367:16)\n    at runTest (/Users/apple/Desktop/YD/nezha-interface/node_modules/.pnpm/jest-runner@29.7.0/node_modules/jest-runner/build/runTest.js:444:34)"
+          ],
+          "fullName": "formatWalletAddress should return original address when length equals startLength + endLength",
+          "invocations": 2,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "failed",
+          "title": "should return original address when length equals startLength + endLength"
+        },
+        {
+          "ancestorTitles": [
+            "formatWalletAddress"
+          ],
+          "duration": 0,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "formatWalletAddress should handle very long addresses correctly",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should handle very long addresses correctly"
+        },
+        {
+          "ancestorTitles": [
+            "formatWalletAddress"
+          ],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "formatWalletAddress should handle addresses without cleaning special characters",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 2,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should handle addresses without cleaning special characters"
+        }
+      ],
+      "failureMessage": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mformatWalletAddress › should format address with custom start and end lengths\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32m\"0x12345...\u001b[7m45\u001b[27m678\"\u001b[39m\n    Received: \u001b[31m\"0x12345...678\u001b[7m90\u001b[27m\"\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 36 |\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m 37 |\u001b[39m   \u001b[90m// 测试边缘情况：正好等于startLength + endLength\u001b[39m\u001b[22m\n\u001b[2m    \u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 38 |\u001b[39m   test(\u001b[32m'should return original address when length equals startLength + endLength'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[22m\n\u001b[2m     \u001b[90m    |\u001b[39m        \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m 39 |\u001b[39m     expect(formatWalletAddress(\u001b[32m'12345678'\u001b[39m\u001b[33m,\u001b[39m \u001b[35m4\u001b[39m\u001b[33m,\u001b[39m \u001b[35m4\u001b[39m))\u001b[33m.\u001b[39mtoBe(\u001b[32m'12345678'\u001b[39m)\u001b[33m;\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m 40 |\u001b[39m     expect(formatWalletAddress(\u001b[32m'0x12345678'\u001b[39m\u001b[33m,\u001b[39m \u001b[35m4\u001b[39m\u001b[33m,\u001b[39m \u001b[35m4\u001b[39m))\u001b[33m.\u001b[39mtoBe(\u001b[32m'0x12345678'\u001b[39m)\u001b[33m;\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m 41 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtests/unit/index.spec.ts\u001b[39m\u001b[0m\u001b[2m:38:8)\u001b[22m\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mformatWalletAddress › should return original address when length equals startLength + endLength\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32m\"0x12345678\"\u001b[39m\n    Received: \u001b[31m\"0x1234\u001b[7m...\u001b[27m5678\"\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 43 |\u001b[39m   \u001b[90m// 测试非常长的地址\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m 44 |\u001b[39m   test(\u001b[32m'should handle very long addresses correctly'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[22m\n\u001b[2m    \u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 45 |\u001b[39m     \u001b[36mconst\u001b[39m longAddress \u001b[33m=\u001b[39m \u001b[32m'1234567890abcdef1234567890abcdef1234567890abcdef'\u001b[39m\u001b[33m;\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m    |\u001b[39m                         \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m 46 |\u001b[39m     expect(formatWalletAddress(longAddress))\u001b[33m.\u001b[39mtoBe(\u001b[32m'123456...cdef'\u001b[39m)\u001b[33m;\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m 47 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m 48 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtests/unit/index.spec.ts\u001b[39m\u001b[0m\u001b[2m:45:25)\u001b[22m\u001b[2m\u001b[22m\n"
+    }
+  ],
+  "wasInterrupted": false
+}
