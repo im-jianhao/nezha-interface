@@ -1,16 +1,20 @@
 // Header.tsx
-import { ConnectKitButton } from "connectkit";
-import { useNavigate } from "react-router-dom";
+import { ConnectKitButton } from 'connectkit';
+import { useNavigate } from 'react-router-dom';
 
 const Header = () => {
   const navigate = useNavigate();
 
   const handleNavigateHome = () => {
-    navigate("/"); // 跳转到主页
+    navigate('/'); // 跳转到主页
   };
 
   const handleNavigateDapp = () => {
-    navigate("/dapp");
+    navigate('/dapp');
+  };
+
+  const handleNavigateWeb3React = () => {
+    navigate('/web3-react');
   };
 
   return (
@@ -28,11 +32,17 @@ const Header = () => {
         <button onClick={handleNavigateDapp} className="text-lg hover:text-gray-400 transition">
           dapp
         </button>
+        <button
+          onClick={handleNavigateWeb3React}
+          className="text-lg hover:text-gray-400 transition"
+        >
+          Web3React
+        </button>
       </nav>
 
       {/* Right: Wallet Connection */}
       <div>
-        <ConnectKitButton />
+        {/* <ConnectKitButton /> */}
       </div>
     </header>
   );

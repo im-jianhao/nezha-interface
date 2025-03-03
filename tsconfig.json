@@ -19,7 +19,11 @@
       "@/*": ["src/*"],
       "@pages/*": ["src/pages/*"],
       "@hooks/*": ["src/hooks/*"],
-      "@utils/*": ["src/utils/*"]
+      "@utils/*": ["src/utils/*"],
+      "@components/*": ["src/components/*"],
+      "@abis/*": ["src/abis/*"],
+      "@routes/*": ["src/routes/*"],
+      "@connections/*": ["src/connections/*"]
     }
   },
   "include": ["src", "tests"]

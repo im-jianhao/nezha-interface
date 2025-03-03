@@ -1,7 +1,7 @@
 import { useReadContract, useWriteContract, useWaitForTransactionReceipt, useSimulateContract } from "wagmi";
 import { useState } from "react";
-import Contract from "@/abis/NezhaInterest.json";
-import YidengCoin from "@/abis/YidengCoin.json";
+import Contract from "@abis/NezhaInterest.json";
+import YidengCoin from "@abis/YidengCoin.json";
 import { Address } from "viem";
 
 // 从 ABI 文件中获取合约地址

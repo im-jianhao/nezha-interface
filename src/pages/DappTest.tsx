@@ -1,5 +1,5 @@
 import { useAccount } from "wagmi";
-import { ContractInteraction } from "@/components/ContractInteraction";
+import { ContractInteraction } from "@components/ContractInteraction";
 
 // Make sure that this component is wrapped with ConnectKitProvider
 const DappTest = () => {
