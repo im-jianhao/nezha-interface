@@ -18,6 +18,12 @@ const webpackBaseConfig = {
   output: {
     path: resolve(process.cwd(), 'dist'),
   },
+  optimization: {
+    runtimeChunk: {
+      name: 'runtime',
+    },
+    splitChunks: {},
+  },
   module: {
     rules: [
       {
