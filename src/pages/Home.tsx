@@ -1,11 +1,4 @@
-// react-helmet-async
-// const HomePage = () => {
-//   return (
-//     <>
-//       <h1>HomePage</h1>
-//     </>
-//   );
-// };
+import { Helmet } from 'react-helmet-async';
 
 import { useState } from 'react';
 
@@ -22,11 +15,16 @@ function HomePage() {
   }
 
   return (
-    <div>
-      <p>计数: {count}</p>
-      <button onClick={() => setCount(count + 1)}>增加</button>
-      <button onClick={handleClick}>延迟打印</button>
-    </div>
+    <>
+      <Helmet>
+        <title>🐻‍❄️ 首页</title>
+      </Helmet>
+      <div>
+        <p>计数: {count}</p>
+        <button onClick={() => setCount(count + 1)}>增加</button>
+        <button onClick={handleClick}>延迟打印</button>
+      </div>
+    </>
   );
 }
 
